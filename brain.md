@@ -1,4 +1,4 @@
-# Ecomprime Handlers Project
+# Ecom Account Manager Project
 
 ## Stack
 - **Framework**: React 19 + Vite 8
@@ -10,9 +10,9 @@
 
 ## Reference
 - **URL**: `https://sites.google.com/view/ecomprimehandlers/home/`
-- **Identity**: E-commerce service provider for Indian sellers scaling on Amazon, Flipkart, and Meesho.
+- **Identity**: E-commerce service provider for Indian sellers scaling on Amazon, Myntra, and Meesho.
 - **Tagline**: "Your store, our strategy — profits made simple."
-- **Contact Info**: +91-9302757694 | ecomprimehandlers04@gmail.com | Jabalpur, Madhya Pradesh
+- **Contact Info**: +91-9993055674 | ecomlistingexpert@gmail.com | Indore, Madhya Pradesh
 
 ## Completed
 - Initialized production-ready React + Vite + TypeScript project.
@@ -39,7 +39,7 @@
 - `Navbar.tsx`: Shared header with logo, navigation links, quick call CTA, and mobile navigation drawer.
 - `Footer.tsx`: Shared footer with brand details, quick links, contact info, working hours, and copyright.
 - `SectionTitle.tsx`: Reusable section heading with badge, main title, and description.
-- `PlatformCard.tsx`: Marketplace highlight card for Amazon, Flipkart, and Meesho.
+- `PlatformCard.tsx`: Marketplace highlight card for Amazon, Myntra, and Meesho.
 - `ServiceCard.tsx`: Service highlight card with icon, title, description, and tags.
 - `CTASection.tsx`: Conversion call-to-action banner for consultation inquiries.
 

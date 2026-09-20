@@ -38,9 +38,9 @@ export const Navbar = () => {
               <ShoppingBag className="w-5 h-5" />
             </div>
             <div className="flex flex-col">
-              <span className="leading-tight">Ecomprime</span>
+              <span className="leading-tight">Ecom</span>
               <span className="text-xs font-semibold text-amber-600 uppercase tracking-widest leading-none">
-                Handlers
+                Account Manager
               </span>
             </div>
           </NavLink>
@@ -68,11 +68,11 @@ export const Navbar = () => {
           {/* Desktop Call/CTA Button */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="tel:+919302757694"
+              href="tel:+919993055674"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-slate-950 text-sm font-semibold transition-all shadow-xs hover:shadow-sm"
             >
               <Phone className="w-4 h-4" />
-              <span>+91 9302757694</span>
+              <span>+91 9993055674</span>
             </a>
           </div>
 
@@ -129,11 +129,11 @@ export const Navbar = () => {
         <div className="pt-6 border-t border-slate-200 space-y-3">
           <p className="text-xs text-slate-500 font-medium">Quick Contact</p>
           <a
-            href="tel:+919302757694"
+            href="tel:+919993055674"
             className="flex items-center justify-center gap-2 w-full py-3 rounded-lg bg-amber-500 text-slate-950 font-semibold text-sm shadow-xs hover:bg-amber-600 transition-colors"
           >
             <Phone className="w-4 h-4" />
-            <span>Call +91-9302757694</span>
+            <span>Call +91-9993055674</span>
           </a>
         </div>
       </div>

@@ -106,39 +106,39 @@ export const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+91-9302757694',
-      subtext: 'Mon - Sat: 9 AM to 6 PM',
-      link: 'tel:+919302757694',
+      value: '+91-9993055674',
+      subtext: 'Every Day: 24/7',
+      link: 'tel:+919993055674',
       actionText: 'Call Now',
     },
     {
       icon: Mail,
       title: 'Email',
-      value: 'ecomprimehandlers04@gmail.com',
+      value: 'ecomlistingexpert@gmail.com',
       subtext: 'Online support & inquiries',
-      link: 'mailto:ecomprimehandlers04@gmail.com',
+      link: 'mailto:ecomlistingexpert@gmail.com',
       actionText: 'Send Email',
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Jabalpur, Madhya Pradesh',
+      value: 'Indore, Madhya Pradesh',
       subtext: 'India - Serving sellers nationwide',
-      link: 'https://maps.google.com/?q=Jabalpur,+Madhya+Pradesh',
+      link: 'https://maps.google.com/?q=Indore,+Madhya+Pradesh',
       actionText: 'Open in Maps',
       external: true,
     },
     {
       icon: Clock,
       title: 'Business Hours',
-      value: 'Monday - Saturday: 9 AM - 6 PM',
-      subtext: 'Sunday: Closed',
+      value: 'Every Day: 24/7',
+      subtext: 'Online support & inquiries',
     },
   ];
 
   const serviceOptions = [
     'Amazon Account Management',
-    'Flipkart Growth Management',
+    'Myntra Growth Management',
     'Meesho Cataloging & Sales',
     'Product Listing Optimization & SEO',
     'Performance PPC & Ads Management',
@@ -170,11 +170,11 @@ export const Contact = () => {
             </span>
 
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white mb-6">
-              Contact Ecomprime Handlers
+              Contact Ecom Account Manager
             </h1>
 
             <p className="text-slate-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              Have questions about selling on Amazon, Flipkart, or Meesho? Contact us today for a consultation or free store catalog audit.
+              Have questions about selling on Amazon, Myntra, or Meesho? Contact us today for a consultation or free store catalog audit.
             </p>
           </div>
         </section>
@@ -258,7 +258,7 @@ export const Contact = () => {
                       </h3>
                       <p className="text-sm text-emerald-800 max-w-md mx-auto leading-relaxed">
                         We have received your message regarding{' '}
-                        <strong className="font-semibold">{formData.service}</strong>. An Ecomprime Handlers specialist will review your request and contact you at{' '}
+                        <strong className="font-semibold">{formData.service}</strong>. An Ecom Account Manager specialist will review your request and contact you at{' '}
                         <span className="font-semibold">{formData.phone}</span> /{' '}
                         <span className="font-semibold">{formData.email}</span> shortly.
                       </p>
@@ -351,7 +351,7 @@ export const Contact = () => {
                             onChange={(e) =>
                               setFormData({ ...formData, phone: e.target.value })
                             }
-                            placeholder="+91 9302757694"
+                            placeholder="+91 9993055674"
                             className={`w-full px-4 py-3 rounded-xl border text-sm text-slate-900 placeholder:text-slate-400 focus:outline-hidden transition-colors ${
                               errors.phone
                                 ? 'border-rose-400 bg-rose-50/30 focus:border-rose-500'
@@ -459,16 +459,16 @@ export const Contact = () => {
                       </div>
                       <div>
                         <h3 className="text-base font-bold text-slate-900">Head Office Location</h3>
-                        <p className="text-xs text-slate-500">Jabalpur, Madhya Pradesh</p>
+                        <p className="text-xs text-slate-500">Indore, Madhya Pradesh</p>
                       </div>
                     </div>
 
                     <a
-                      href="https://maps.google.com/?q=Jabalpur,+Madhya+Pradesh"
+                      href="https://maps.google.com/?q=Indore,+Madhya+Pradesh"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 text-xs font-semibold text-amber-700 hover:text-amber-800 transition-colors"
-                      title="Open Jabalpur in Google Maps"
+                      title="Open Indore in Google Maps"
                     >
                       <span>Google Maps</span>
                       <ExternalLink className="w-3 h-3" />
@@ -478,8 +478,8 @@ export const Contact = () => {
                   {/* Responsive Map Embed */}
                   <div className="relative w-full h-72 bg-slate-100">
                     <iframe
-                      title="Ecomprime Handlers Office Location Jabalpur"
-                      src="https://maps.google.com/maps?q=Jabalpur%2C%20Madhya%20Pradesh&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                      title="Ecom Account Manager Office Location Indore"
+                      src="https://maps.google.com/maps?q=Indore%2C%20Madhya%20Pradesh&t=&z=12&ie=UTF8&iwloc=&output=embed"
                       className="w-full h-full border-0"
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
@@ -491,7 +491,7 @@ export const Contact = () => {
                       <MapPin className="w-4 h-4 text-amber-600 shrink-0 mt-1" />
                       <div>
                         <p className="font-semibold text-slate-900">Registered City</p>
-                        <p className="text-xs text-slate-500">Jabalpur, Madhya Pradesh, India</p>
+                        <p className="text-xs text-slate-500">Indore, Madhya Pradesh, India</p>
                       </div>
                     </div>
 
@@ -499,20 +499,19 @@ export const Contact = () => {
                       <Clock className="w-4 h-4 text-amber-600 shrink-0 mt-1" />
                       <div>
                         <p className="font-semibold text-slate-900">Hours of Operation</p>
-                        <p className="text-xs text-slate-500">Monday - Saturday: 9:00 AM - 6:00 PM</p>
-                        <p className="text-xs text-rose-500 font-medium">Sunday: Closed</p>
+                        <p className="text-xs text-slate-500">Every Day: 24/7</p>
                       </div>
                     </div>
 
                     <div className="pt-2">
                       <a
-                        href="https://maps.google.com/?q=Jabalpur,+Madhya+Pradesh"
+                        href="https://maps.google.com/?q=Indore,+Madhya+Pradesh"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-semibold transition-colors"
                       >
                         <MapPin className="w-3.5 h-3.5 text-amber-600" />
-                        <span>Open Jabalpur in Google Maps</span>
+                        <span>Open Indore in Google Maps</span>
                       </a>
                     </div>
                   </div>
@@ -531,11 +530,11 @@ export const Contact = () => {
                       </p>
                       <div className="mt-3">
                         <a
-                          href="tel:+919302757694"
+                          href="tel:+919993055674"
                           className="inline-flex items-center gap-2 text-sm font-bold text-amber-400 hover:text-amber-300 transition-colors"
                         >
                           <Phone className="w-4 h-4" />
-                          <span>+91-9302757694</span>
+                          <span>+91-9993055674</span>
                         </a>
                       </div>
                     </div>

@@ -19,7 +19,7 @@ export const CTASection = () => {
         </h2>
 
         <p className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-          Join over 100+ Indian sellers leveraging our complete Amazon, Flipkart, and Meesho account management, listing optimization, and performance marketing.
+          Join over 100+ Indian sellers leveraging our complete Amazon, Myntra, and Meesho account management, listing optimization, and performance marketing.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-10">
@@ -32,11 +32,11 @@ export const CTASection = () => {
           </Link>
 
           <a
-            href="tel:+919302757694"
+            href="tel:+919993055674"
             className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-base transition-colors border border-slate-700"
           >
             <Phone className="w-5 h-5 text-amber-400" />
-            <span>+91-9302757694</span>
+            <span>+91-9993055674</span>
           </a>
         </div>
 

@@ -27,7 +27,7 @@ export const Home = () => {
       badge: 'Amazon Specialist',
       badgeBg: 'bg-amber-600',
       description:
-        'Ecomprime Handlers helps you rank higher and sell more on Amazon with expert listing, ads, and complete account care.',
+        'Ecom Account Manager helps you rank higher and sell more on Amazon with expert listing, ads, and complete account care.',
       features: [
         'Amazon Storefront Setup & Onboarding',
         'Keyword-rich Product Listing & SEO',
@@ -37,15 +37,15 @@ export const Home = () => {
       ],
     },
     {
-      name: 'Flipkart Growth Management',
-      badge: 'Flipkart Partner',
+      name: 'Myntra Growth Management',
+      badge: 'Myntra Partner',
       badgeBg: 'bg-blue-600',
       description:
-        'Boost your Flipkart sales effortlessly—Ecomprime Handlers manages setup, campaigns, cataloging, and sales growth.',
+        'Boost your Myntra sales effortlessly—Ecom Account Manager manages setup, campaigns, cataloging, and sales growth.',
       features: [
-        'Flipkart Seller Onboarding & Account Verification',
+        'Myntra Seller Onboarding & Account Verification',
         'Category Mapping & Catalog Upload',
-        'Flipkart PLA Advertising & Promotions',
+        'Myntra PLA Advertising & Promotions',
         'Order Fulfillment & Express Listing Setup',
         'Account Health & Performance Monitoring',
       ],
@@ -55,7 +55,7 @@ export const Home = () => {
       badge: 'Meesho Expert',
       badgeBg: 'bg-pink-600',
       description:
-        'Sell smarter on Meesho with Ecomprime Handlers—easy cataloging, order growth, and hassle-free dedicated support.',
+        'Sell smarter on Meesho with Ecom Account Manager—easy cataloging, order growth, and hassle-free dedicated support.',
       features: [
         'Rapid Meesho Catalog Upload & Mapping',
         'Competitive Pricing & Profitability Setup',
@@ -70,7 +70,7 @@ export const Home = () => {
     {
       title: 'Listings Services & Onboarding',
       description:
-        'Complete onboarding support on Amazon, Flipkart, and Meesho. From account creation to catalog setup, we make the process simple and professional.',
+        'Complete onboarding support on Amazon, Myntra, and Meesho. From account creation to catalog setup, we make the process simple and professional.',
       icon: Box,
       tags: ['Account Setup', 'Cataloging', 'Multi-Platform'],
     },
@@ -84,7 +84,7 @@ export const Home = () => {
     {
       title: 'Ads & Sales Growth',
       description:
-        'We run targeted advertising campaigns on Amazon, Flipkart, and Meesho to maximize visibility, increase traffic, and deliver superior return on ad spend (ROI).',
+        'We run targeted advertising campaigns on Amazon, Myntra, and Meesho to maximize visibility, increase traffic, and deliver superior return on ad spend (ROI).',
       icon: Megaphone,
       tags: ['PPC Ads', 'ROI Boost', 'Campaign Management'],
     },
@@ -134,7 +134,7 @@ export const Home = () => {
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.15]">
-                  Ecomprime <span className="text-amber-600">Handlers</span>
+                  Ecom <span className="text-amber-600">Account Manager</span>
                 </h1>
 
                 <p className="text-lg sm:text-xl md:text-2xl font-semibold text-slate-700 leading-snug">
@@ -142,7 +142,7 @@ export const Home = () => {
                 </p>
 
                 <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  We help sellers boost their online business with expert account management, smart marketing, and guaranteed sales growth across <strong className="text-slate-900 font-semibold">Amazon</strong>, <strong className="text-slate-900 font-semibold">Flipkart</strong>, <strong className="text-slate-900 font-semibold">Meesho</strong>, and more.
+                  We help sellers boost their online business with expert account management, smart marketing, and guaranteed sales growth across <strong className="text-slate-900 font-semibold">Amazon</strong>, <strong className="text-slate-900 font-semibold">Myntra</strong>, <strong className="text-slate-900 font-semibold">Meesho</strong>, and more.
                 </p>
 
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
@@ -170,7 +170,7 @@ export const Home = () => {
                   </div>
                   <div className="flex items-center gap-1.5">
                     <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span>Flipkart Campaign Care</span>
+                    <span>Myntra Campaign Care</span>
                   </div>
                   <div className="flex items-center gap-1.5">
                     <CheckCircle className="w-4 h-4 text-pink-600" />
@@ -189,7 +189,7 @@ export const Home = () => {
                       <ShoppingBag className="w-7 h-7" />
                     </div>
                     <div>
-                      <h2 className="font-bold text-slate-900 text-lg">Ecomprime Handlers</h2>
+                      <h2 className="font-bold text-slate-900 text-lg">Ecom Account Manager</h2>
                       <p className="text-xs text-slate-500 font-medium">Complete Store Growth Partner</p>
                     </div>
                   </div>
@@ -221,8 +221,8 @@ export const Home = () => {
                   </div>
 
                   <div className="mt-6 pt-6 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-500">
-                    <span>Base: Jabalpur, MP</span>
-                    <span className="text-amber-600">Mon - Sat: 9 AM - 6 PM</span>
+                    <span>Base: Indore, MP</span>
+                    <span className="text-amber-600">Every Day: 24/7</span>
                   </div>
                 </div>
               </div>
@@ -254,7 +254,7 @@ export const Home = () => {
             <SectionTitle
               subtitle="Major Platforms Covered"
               title="Scale Your Brand Across India's Top Marketplaces"
-              description="We deliver customized, end-to-end account management optimized specifically for Amazon, Flipkart, and Meesho algorithms."
+              description="We deliver customized, end-to-end account management optimized specifically for Amazon, Myntra, and Meesho algorithms."
             />
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

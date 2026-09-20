@@ -45,7 +45,7 @@ const servicesData: ServiceItem[] = [
   {
     title: 'Listings Services & Onboarding',
     description:
-      'Complete onboarding support on Amazon, Flipkart, and Meesho. From initial account verification to catalog setup, we ensure smooth and rapid marketplace launches.',
+      'Complete onboarding support on Amazon, Myntra, and Meesho. From initial account verification to catalog setup, we ensure smooth and rapid marketplace launches.',
     icon: Box,
     tags: ['Account Setup', 'Cataloging', 'Multi-Platform'],
   },
@@ -59,7 +59,7 @@ const servicesData: ServiceItem[] = [
   {
     title: 'Ads & Sales Growth',
     description:
-      'We run targeted advertising campaigns on Amazon, Flipkart, and Meesho to maximize visibility, increase qualified buyer traffic, and deliver superior return on ad spend (RoAS).',
+      'We run targeted advertising campaigns on Amazon, Myntra, and Meesho to maximize visibility, increase qualified buyer traffic, and deliver superior return on ad spend (RoAS).',
     icon: Megaphone,
     tags: ['PPC Ads', 'ROI Boost', 'Campaign Management'],
   },
@@ -117,7 +117,7 @@ const processSteps: ProcessItem[] = [
     step: '03',
     title: 'Targeted Ad Scaling',
     description:
-      'We launch and optimize performance advertising campaigns across Amazon, Flipkart, and Meesho to drive profitable buyer traffic.',
+      'We launch and optimize performance advertising campaigns across Amazon, Myntra, and Meesho to drive profitable buyer traffic.',
   },
   {
     step: '04',
@@ -135,13 +135,13 @@ const supportHighlights: SupportItem[] = [
   },
   {
     icon: Clock,
-    title: 'Weekly Performance Reports',
+    title: 'Weekly Meetings and Performance Reports',
     description: 'Clear, transparent reports tracking sales growth, ad spend, and TACoS.',
   },
   {
     icon: Award,
     title: 'Multi-Marketplace Specialization',
-    description: 'Cross-platform expertise spanning Amazon, Flipkart, and Meesho.',
+    description: 'Cross-platform expertise spanning Amazon, Myntra, and Meesho.',
   },
 ];
 
@@ -166,7 +166,7 @@ const ServicesHero = () => (
       </h1>
 
       <p className="text-slate-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
-        Ecomprime Handlers helps sellers manage and grow across major marketplaces including Amazon, Flipkart, and Meesho with complete operational and growth support.
+        Ecom Account Manager helps sellers manage and grow across major marketplaces including Amazon, Myntra, and Meesho with complete operational and growth support.
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-4">
@@ -178,11 +178,11 @@ const ServicesHero = () => (
           <ArrowRight className="w-4 h-4" aria-hidden="true" />
         </Link>
         <a
-          href="tel:+919302757694"
+          href="tel:+919993055674"
           className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm transition-colors border border-slate-700"
         >
           <Phone className="w-4 h-4 text-amber-400" aria-hidden="true" />
-          <span>Call +91-9302757694</span>
+          <span>Call +91-9993055674</span>
         </a>
       </div>
     </div>

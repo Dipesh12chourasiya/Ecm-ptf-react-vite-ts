@@ -15,14 +15,14 @@ export const Footer = () => {
                 <ShoppingBag className="w-5 h-5" />
               </div>
               <div className="flex flex-col">
-                <span className="leading-tight">Ecomprime</span>
+                <span className="leading-tight">Ecom Account Manager</span>
                 <span className="text-xs font-semibold text-amber-400 uppercase tracking-widest leading-none">
-                  Handlers
+                  
                 </span>
               </div>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
-              E-commerce service provider specializing in account management, cataloging, marketing, and sales growth across Amazon, Flipkart, and Meesho.
+              E-commerce service provider specializing in account management, cataloging, marketing, and sales growth across Amazon, Myntra, and Meesho.
             </p>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800 text-amber-400 text-xs font-medium border border-slate-700">
               <span>Your Store, Our Strategy</span>
@@ -57,22 +57,22 @@ export const Footer = () => {
             <ul className="space-y-3 text-sm text-slate-400">
               <li className="flex items-start gap-3">
                 <Phone className="w-4 h-4 text-amber-400 shrink-0 mt-1" />
-                <a href="tel:+919302757694" className="hover:text-amber-400 transition-colors">
-                  +91-9302757694
+                <a href="tel:+919993055674" className="hover:text-amber-400 transition-colors">
+                  +91-9993055674
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-4 h-4 text-amber-400 shrink-0 mt-1" />
                 <a
-                  href="mailto:ecomprimehandlers04@gmail.com"
+                  href="mailto:ecomlistingexpert@gmail.com"
                   className="hover:text-amber-400 transition-colors break-all"
                 >
-                  ecomprimehandlers04@gmail.com
+                  ecomlistingexpert@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-1" />
-                <span>Jabalpur, Madhya Pradesh</span>
+                <span>Indore, Madhya Pradesh</span>
               </li>
             </ul>
           </div>
@@ -84,13 +84,9 @@ export const Footer = () => {
               <div className="flex items-start gap-3">
                 <Clock className="w-4 h-4 text-amber-400 shrink-0 mt-1" />
                 <div>
-                  <p className="text-slate-200 font-medium">Monday - Saturday</p>
-                  <p className="text-slate-400 text-xs">9:00 AM - 6:00 PM</p>
+                  <p className="text-slate-200 font-medium">Every Day</p>
+                  <p className="text-slate-400 text-xs">24/7</p>
                 </div>
-              </div>
-              <div className="pl-7">
-                <p className="text-slate-400 font-medium">Sunday</p>
-                <p className="text-rose-400 text-xs font-medium">Closed</p>
               </div>
               <div className="pt-2">
                 <Link
@@ -107,8 +103,8 @@ export const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© {currentYear} Ecomprime Handlers. All rights reserved.</p>
-          <p className="text-slate-500">Professional Amazon, Flipkart & Meesho Account Management</p>
+          <p>© {currentYear} Ecom Account Manager. All rights reserved.</p>
+          <p className="text-slate-500">Professional Amazon, Myntra & Meesho Account Management</p>
         </div>
       </div>
     </footer>

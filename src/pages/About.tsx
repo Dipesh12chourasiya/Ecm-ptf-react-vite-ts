@@ -29,7 +29,7 @@ const whyChooseItems: WhyChooseItem[] = [
     icon: Award,
     title: 'Marketplace Expertise',
     description:
-      'In-depth mastery of Amazon, Flipkart, and Meesho search ranking algorithms, catalog standards, and platform advertising policies.',
+      'In-depth mastery of Amazon, Myntra, and Meesho search ranking algorithms, catalog standards, and platform advertising policies.',
     highlight: 'Multi-Marketplace Mastery',
   },
   {
@@ -56,7 +56,7 @@ const whyChooseItems: WhyChooseItem[] = [
 ];
 
 const statsData = [
-  { value: '100+', label: 'Active Sellers Managed', detail: 'Across Amazon, Flipkart & Meesho' },
+  { value: '100+', label: 'Active Sellers Managed', detail: 'Across Amazon, Myntra & Meesho' },
   { value: '10,000+', label: 'Listings Created & Optimized', detail: 'Keyword-rich SEO & indexing' },
   { value: '3x+', label: 'Average Sales Growth', detail: 'Consistent monthly scaling' },
   { value: '99%', label: 'Seller Satisfaction', detail: 'Dedicated support & reporting' },
@@ -85,11 +85,11 @@ export const About = () => {
             </span>
 
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white mb-6">
-              About Ecomprime Handlers
+              About Ecom Account Manager
             </h1>
 
             <p className="text-slate-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
-              "Your store, our strategy — profits made simple." We help Indian sellers unlock sustainable growth on Amazon, Flipkart, and Meesho through specialized management and marketing.
+              "Your store, our strategy — profits made simple." We help Indian sellers unlock sustainable growth on Amazon, Myntra, and Meesho through specialized management and marketing.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4">
@@ -125,7 +125,7 @@ export const About = () => {
                 </h2>
 
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-                  Ecomprime Handlers is an e-commerce service provider committed to helping Indian brands, manufacturers, and traders build thriving online storefronts. Headquartered in Jabalpur, Madhya Pradesh, our team combines hands-on marketplace know-how with modern growth techniques.
+                  Ecom Account Manager is an e-commerce service provider committed to helping Indian brands, manufacturers, and traders build thriving online storefronts. Headquartered in Indore, Madhya Pradesh, our team combines hands-on marketplace know-how with modern growth techniques.
                 </p>
 
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
@@ -137,14 +137,14 @@ export const About = () => {
                     <CheckCircle2 className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
                     <div>
                       <h4 className="font-bold text-slate-900">Headquarters</h4>
-                      <p className="text-xs text-slate-500">Jabalpur, Madhya Pradesh, India</p>
+                      <p className="text-xs text-slate-500">Indore, Madhya Pradesh, India</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
                     <div>
                       <h4 className="font-bold text-slate-900">Business Hours</h4>
-                      <p className="text-xs text-slate-500">Mon - Sat: 9:00 AM - 6:00 PM</p>
+                      <p className="text-xs text-slate-500">Every Day: 24/7</p>
                     </div>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ export const About = () => {
                       <span className="text-amber-400 font-semibold">Storefront & PPC</span>
                     </div>
                     <div className="flex items-center justify-between p-3 rounded-xl bg-slate-800/90 border border-slate-700/70 text-xs sm:text-sm">
-                      <span className="font-medium text-slate-200">Flipkart Growth Partner</span>
+                      <span className="font-medium text-slate-200">Myntra Growth Partner</span>
                       <span className="text-amber-400 font-semibold">Catalog & PLA Ads</span>
                     </div>
                     <div className="flex items-center justify-between p-3 rounded-xl bg-slate-800/90 border border-slate-700/70 text-xs sm:text-sm">
