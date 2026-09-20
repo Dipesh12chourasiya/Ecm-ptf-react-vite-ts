@@ -17,7 +17,7 @@ export const ServiceCard = ({
     <div className="bg-white rounded-xl border border-slate-200 p-6 shadow-2xs hover:shadow-md hover:border-amber-300 transition-all duration-200 flex flex-col justify-between">
       <div>
         <div className="w-12 h-12 rounded-lg bg-amber-50 border border-amber-200 text-amber-600 flex items-center justify-center mb-5">
-          <Icon className="w-6 h-6" />
+          <Icon className="w-6 h-6" aria-hidden="true" />
         </div>
 
         <h3 className="text-lg font-bold text-slate-900 mb-2">

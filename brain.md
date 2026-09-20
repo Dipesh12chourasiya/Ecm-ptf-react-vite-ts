@@ -44,7 +44,7 @@
 
 ## Pages
 - **Home**: Completed (`src/pages/Home.tsx`)
-- **Services**: Placeholder (`src/pages/Services.tsx`)
+- **Services**: Completed (`src/pages/Services.tsx`) - full breakdown, 4-step workflow, platform matrices, FAQ, reused CTASection
 - **About**: Placeholder (`src/pages/About.tsx`)
 - **Gallery**: Placeholder (`src/pages/Gallery.tsx`)
 - **Contact**: Placeholder (`src/pages/Contact.tsx`)
@@ -57,6 +57,7 @@
 - **Tailwind v4 Setup**: Uses `@tailwindcss/vite` plugin with `@import "tailwindcss";` in `src/index.css`.
 - **Router Navigation**: Used `NavLink` for active state indication; mobile menu closes on link selection directly without state-in-effect issues.
 - **Routing Preservation**: Maintained existing routes (`/`, `/services`, `/about`, `/gallery`, `/contact`).
+- **CTA Component Constraint**: Do not create any new CTA component; strictly reuse or adapt the existing `CTASection.tsx` across pages to maintain design consistency and avoid component proliferation.
 
 ## Next Task
-Next task: implement Services page using the established design system and reference website.
+Next task: implement About or Gallery page using the established design system and reference website.
