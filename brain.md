@@ -69,6 +69,7 @@
 - **Required Environment Variables**: None
 - **Discovered Problem**: Direct URL navigation or page refreshes on nested client-side routes (`/services`, `/about`, `/contact`) resulted in Vercel returning a 404 NOT_FOUND error because Vercel looked for server-side static files corresponding to those paths.
 - **Fix Applied**: Created `vercel.json` in project root with SPA rewrite rule `{"source": "/(.*)", "destination": "/index.html"}` to direct all non-file route traffic to `index.html`.
+- **TypeScript**: resolved TS5101 `baseUrl` deprecation and verified production build.
 - **Future Deployment Notes**: When deploying updates to Vercel, ensure Vercel framework preset is set to Vite with build command `npm run build` and output directory `dist`.
 
 ## Next Task
