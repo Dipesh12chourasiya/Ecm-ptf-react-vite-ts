@@ -21,6 +21,7 @@
 - Built responsive shared `Footer` component with contact info, business hours, and copyright.
 - Built reusable modular UI components (`SectionTitle`, `PlatformCard`, `ServiceCard`, `CTASection`).
 - Built complete, responsive `Home` page with Hero, Marketplace focus, Core Services grid, Stats, and CTAs.
+- Configured Vercel deployment SPA rewrites (`vercel.json`) to fix client-side routing 404 issues on direct URL navigation/refresh.
 - Passed all lint (`npm run lint`) and production build checks (`npm run build`).
 
 ## Design System
@@ -59,5 +60,17 @@
 - **Routing Preservation**: Maintained existing routes (`/`, `/services`, `/about`, `/gallery`, `/contact`).
 - **CTA Component Constraint**: Do not create any new CTA component; strictly reuse or adapt the existing `CTASection.tsx` across pages to maintain design consistency and avoid component proliferation.
 
+## Deployment / Vercel
+- **Deployment Platform**: Vercel
+- **Framework**: Vite 8 + React 19 (Single Page Application)
+- **Build Command**: `npm run build` (`tsc -b && vite build`)
+- **Output Directory**: `dist`
+- **Root Directory**: `./` (Project Root)
+- **Required Environment Variables**: None
+- **Discovered Problem**: Direct URL navigation or page refreshes on nested client-side routes (`/services`, `/about`, `/contact`) resulted in Vercel returning a 404 NOT_FOUND error because Vercel looked for server-side static files corresponding to those paths.
+- **Fix Applied**: Created `vercel.json` in project root with SPA rewrite rule `{"source": "/(.*)", "destination": "/index.html"}` to direct all non-file route traffic to `index.html`.
+- **Future Deployment Notes**: When deploying updates to Vercel, ensure Vercel framework preset is set to Vite with build command `npm run build` and output directory `dist`.
+
 ## Next Task
 Next task: implement About or Gallery page using the established design system and reference website.
+

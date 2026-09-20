@@ -25,7 +25,7 @@ export const Navbar = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
+    <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Brand Logo */}
@@ -92,7 +92,7 @@ export const Navbar = () => {
       {/* Mobile Drawer Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 top-20 bg-slate-900/40 backdrop-blur-xs z-40 md:hidden"
+          className="fixed inset-0 top-20 bg-slate-900/50 z-40 md:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
